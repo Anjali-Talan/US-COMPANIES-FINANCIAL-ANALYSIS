@@ -1,12 +1,14 @@
-#**US-Companies-Financial-Analysis**
+# US-Companies-Financial-Analysis
 
-**Overview**
+## Overview
 
 An end-to-end financial analysis project evaluating **226 US company records** using industry benchmarking, financial ratios, SQL screening, and Power BI visualization.
 
 The goal was to identify companies with stronger financial fundamentals relative to their industry peers.
 
 **Note:** This is a financial screening and benchmarking project, not a stock-price prediction or investment recommendation.
+
+---
 
 **Business Question
 Which companies demonstrate stronger financial health compared with their industry peers?**
@@ -27,7 +29,9 @@ The analysis focuses on:
 
 **Power BI →** Interactive financial dashboard and company/industry comparison
 
-**Methodology**
+---
+
+## Methodology
 
 Each company's financial ratios were compared with its **industry average.**
 
@@ -47,7 +51,9 @@ The resulting Financial Health Score ranges from **0--6**.
 - High ROE did not always indicate stronger financial health because leverage also influenced company performance.
 - Profitability, growth, and financial ratios varied significantly across industries, supporting the use of industry-relative benchmarking.
 
-**SQL Analysis**
+---
+
+## SQL Analysis
 
 SQL was used to:
 - Identify companies with the highest Profit Margin, Revenue Growth, and ROE
@@ -57,7 +63,9 @@ SQL was used to:
 - Analyze ROE against Debt-to-Equity and valuation metrics
 - Identify large-cap companies with stronger fundamentals
 
-**Power BI Dashboard**
+---
+
+## Power BI Dashboard
 The dashboard contains three pages:
 
 **1. Financial Overview**
@@ -87,7 +95,9 @@ visualizations, dashboard design
 - The dataset contains **226 records and 225 unique company names.**
 - The analysis evaluates financial fundamentals and does not predict future stock prices.
 
-**Outcome**
+---
+
+## Outcome
 This project demonstrates an end-to-end financial analytics workflow:
 
 **Financial Data → Excel Benchmarking → SQL Analysis → Power BI Dashboard**
